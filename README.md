@@ -4,14 +4,14 @@
 
 awsCLI e terraform instalados
 
-![Print do PowerShell mostrando o comando terraform destroy](1.jpeg)
-![Print do PowerShell mostrando o comando terraform destroy](2.jpeg)
+![Print do PowerShell mostrando o comando terraform destroy](/assets/1.jpeg.jpeg)
+![Print do PowerShell mostrando o comando terraform destroy](/assets/2.jpeg.jpeg)
 
 ## Configurando as Credenciais da AWS
 
 1.Para configurar minhas credenciais da AWS, eu iniciei o laboratório da AWS e copiei minhas credenciais de ID, secret_access_key, nome da região e token da sessão.
 
-![Print do PowerShell mostrando o comando terraform destroy](./assets/4.jpeg)
+![Print do PowerShell mostrando o comando terraform destroy](/assets/4.jpeg.jpeg)
 
 2. Após isso executei o comando abaixo e forneci minhas credenciais de acesso solicitadas:
 
@@ -19,7 +19,7 @@ awsCLI e terraform instalados
    aws configure
    ```
 
-2. Então é preciso configurar o token de acesso manualmente, abrindo o arquivo de credenciais no diretório da aws em um editor de texto e colocando o token copiado anteriormente.
+3. Então é preciso configurar o token de acesso manualmente, abrindo o arquivo de credenciais no diretório da aws em um editor de texto e colocando o token copiado anteriormente.
 
    - Abra o arquivo `credentials` em um editor de texto:
 
@@ -36,7 +36,7 @@ awsCLI e terraform instalados
      aws_session_token = YOUR_SESSION_TOKEN
      ```
 
-![Print do PowerShell mostrando o comando terraform destroy](3.jpeg)
+![Print do PowerShell mostrando o comando terraform destroy](/assets/5.jpeg.jpeg)
 
 
 ## Terraform
@@ -65,15 +65,15 @@ Pode-se notar que as partes de "ami" e "instance_type" indicam qual o tipo de m�
 
 ## Inicializando o Terraform
 
-1. Agora para iniciar o terraform, rodei o comando:
+ Agora para iniciar o terraform, rodei o comando:
 
    ```
    terraform init
    ```
 
-   ![Print do PowerShell mostrando o comando terraform init](10.jpeg)
+   ![Print do PowerShell mostrando o comando terraform init](/assets/10.jpeg.jpeg)
 
-   ![Print do PowerShell mostrando o comando terraform plan](6.jpeg)
+   ![Print do PowerShell mostrando o comando terraform plan](/assets/6.jpeg.jpeg)
 
 ## Aplicando a Configuração
 
@@ -83,11 +83,11 @@ Por fim, para aplicar a configuração desejada por mim à instância que será 
 terraform apply
 ```
 
-![Print do PowerShell mostrando o comando terraform apply](5.jpeg)
+![Print do PowerShell mostrando o comando terraform apply](/assets/5.jpeg.jpeg)
 
 Agora, ao irmos até a página da AWS, poderemos ver a instância criada:
 
-![Print do PowerShell mostrando o comando terraform apply](7.jpeg)
+![Print do PowerShell mostrando o comando terraform apply](/assets/7.jpeg.jpeg)
 
 ---
 
@@ -99,5 +99,5 @@ Para destruir a instância criada e limpar a infraestrutura, executei:
 terraform destroy
 ```
 
-![Print do PowerShell mostrando o comando terraform destroy](8.jpeg)
-![Print do PowerShell mostrando o comando terraform destroy](9.jpeg)
+![Print do PowerShell mostrando o comando terraform destroy](/assets/8.jpeg.jpeg)
+![Print do PowerShell mostrando o comando terraform destroy](/assets/9.jpeg.jpeg)
