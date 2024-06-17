@@ -11,7 +11,7 @@ awsCLI e terraform instalados
 
 1.Para configurar minhas credenciais da AWS, eu iniciei o laboratório da AWS e copiei minhas credenciais de ID, secret_access_key, nome da região e token da sessão.
 
-![Print do PowerShell mostrando o comando terraform destroy](4.jpeg)
+![Print do PowerShell mostrando o comando terraform destroy](./assets/4.jpeg)
 
 2. Após isso executei o comando abaixo e forneci minhas credenciais de acesso solicitadas:
 
